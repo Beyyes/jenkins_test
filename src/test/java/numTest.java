@@ -10,6 +10,8 @@ public class numTest {
     @Test
     public void haha() {
       for (int i = 1;i < 4;i++) {
+
+	  // This is amazing..
           System.out.println("===========");
           
           Assert.assertEquals(i, i);
