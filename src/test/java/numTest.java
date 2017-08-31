@@ -11,6 +11,7 @@ public class numTest {
     public void haha() {
       for (int i = 1;i < 4;i++) {
           System.out.println("===========");
+          
           Assert.assertEquals(i, i);
       }
     }
